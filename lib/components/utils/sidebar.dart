@@ -81,8 +81,8 @@ class Sidebar extends StatelessWidget {
                 endIndent: 15,
               ),
               ListTile(
-                leading: const Icon(Icons.shopping_cart),
-                title: const Text('Carrito de compras'),
+                leading: const Icon(Icons.storefront),
+                title: const Text('Catalogo'),
                 onTap: () {
                   // Acción para mostrar una muestra de ficha médica
                 },
@@ -94,6 +94,13 @@ class Sidebar extends StatelessWidget {
                   // Acción para mostrar una muestra de ficha médica
                 },
               ),
+              ListTile(
+                leading: const Icon(Icons.shopping_cart),
+                title: const Text('Carrito de compras'),
+                onTap: () {
+                  // Acción para mostrar una muestra de ficha médica
+                },
+              ),
               const Divider(
                 thickness: 3,
                 indent: 15,
@@ -101,14 +108,14 @@ class Sidebar extends StatelessWidget {
               ),
               ListTile(
                 leading: const Icon(Icons.help),
-                title: const Text('Preguntas Frecuentes'),
+                title: const Text('Preguntas frecuentes'),
                 onTap: () {
                   // Acción para mostrar FAQ
                 },
               ),
               ListTile(
                 leading: const Icon(Icons.lock),
-                title: const Text('Política de Privacidad'),
+                title: const Text('Política de privacidad'),
                 onTap: () {
                   // Acción para mostrar política de privacidad
                 },
@@ -179,8 +186,8 @@ class Sidebar extends StatelessWidget {
                 },
               ),*/
               ListTile(
-                leading: const Icon(Icons.shopping_cart),
-                title: const Text('Carrito de compras'),
+                leading: const Icon(Icons.storefront),
+                title: const Text('Catalogo'),
                 onTap: () {
                   // Acción para mostrar una muestra de ficha médica
                 },
@@ -188,6 +195,13 @@ class Sidebar extends StatelessWidget {
               ListTile(
                 leading: const Icon(Icons.search),
                 title: const Text('Buscar producto'),
+                onTap: () {
+                  // Acción para mostrar una muestra de ficha médica
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.shopping_cart),
+                title: const Text('Carrito de compras'),
                 onTap: () {
                   // Acción para mostrar una muestra de ficha médica
                 },
